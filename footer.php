@@ -17,7 +17,8 @@
 		</div><!-- #content -->
 
 		<footer id="colophon" class="site-footer" role="contentinfo">
-			<div class="wrap">
+			<div class="footer-shadow">
+			<div class="wrap footer-nav">
 				<?php
 				get_template_part( 'template-parts/footer/footer', 'widgets' );
 
@@ -38,10 +39,23 @@
 					</nav><!-- .social-navigation -->
 					<?php
 				endif;
-
-				get_template_part( 'template-parts/footer/site', 'info' );
 				?>
 			</div><!-- .wrap -->
+			</div>
+			<div class="copyright">
+				<div class="copyright-wrapper">
+					<p><?php bloginfo(); ?> &copy; <?php echo date( 'Y' ); ?>. All Rights Reserved.</p>
+					<div class="copyright-logos">
+						<a href="http://princeton.edu">
+							<img src="/wp-content/uploads/princeton.png" alt="Princeton University" />
+						</a>
+						&nbsp;&nbsp;&nbsp;
+						<a href="http://www.princeton.edu/music/">
+							<img src="/wp-content/uploads/pumusic.png" />
+						</a>
+					</div>
+				</div>
+			</div>
 		</footer><!-- #colophon -->
 	</div><!-- .site-content-contain -->
 </div><!-- #page -->

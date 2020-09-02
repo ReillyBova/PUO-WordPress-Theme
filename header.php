@@ -17,9 +17,11 @@
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="profile" href="https://gmpg.org/xfn/11">
+<link rel="profile" href="http://gmpg.org/xfn/11">
 
 <?php wp_head(); ?>
+	
+<meta data-react-helmet="true" name="description" content="Founded in 1896, the Princeton University Orchestra is a highly-acclaimed, internationally-touring symphony comprised of over 100 Princeton students.">
 </head>
 
 <body <?php body_class(); ?>>
