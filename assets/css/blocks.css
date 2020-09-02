@@ -77,11 +77,6 @@ p.has-drop-cap:not(:focus)::first-letter {
 
 /* Quote */
 
-.wp-block-quote:not(.is-large):not(.is-style-large) {
-	border: 0;
-	padding: 0;
-}
-
 .wp-block-quote.alignleft p:last-of-type,
 .wp-block-quote.alignright p:last-of-type {
 	margin-bottom: 0;

@@ -16,9 +16,9 @@
 
 		<div class="site-branding-text">
 			<?php if ( is_front_page() ) : ?>
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">Princeton University Orchestra</a></h1>
 			<?php else : ?>
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
+				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">Princeton University Orchestra</a></p>
 			<?php endif; ?>
 
 			<?php
@@ -26,7 +26,7 @@
 
 			if ( $description || is_customize_preview() ) :
 				?>
-				<p class="site-description"><?php echo $description; ?></p>
+				<p class="site-description">Since 1896</p>
 			<?php endif; ?>
 		</div><!-- .site-branding-text -->
 

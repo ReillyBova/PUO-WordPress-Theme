@@ -26,7 +26,6 @@
 	<?php endif; ?>
 
 	<div class="panel-content">
-		<div class="wrap">
 			<header class="entry-header">
 				<?php the_title( '<h2 class="entry-title">', '</h2>' ); ?>
 
@@ -43,16 +42,8 @@
 							get_the_title()
 						)
 					);
-					wp_link_pages(
-						array(
-							'before' => '<div class="page-links">' . __( 'Pages:', 'twentyseventeen' ),
-							'after'  => '</div>',
-						)
-					);
 					?>
 			</div><!-- .entry-content -->
-
-		</div><!-- .wrap -->
 	</div><!-- .panel-content -->
 
 </article><!-- #post-<?php the_ID(); ?> -->
