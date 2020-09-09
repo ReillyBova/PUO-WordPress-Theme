@@ -19,7 +19,7 @@ Tags: puo, princeton, orchestra, dark, video, material
 ul,
 ol {
 	margin: 0 0 1.5em;
-	padding: unset;
+	padding-inline-start: 40px;
 }
 
 /*--------------------------------------------------------------
